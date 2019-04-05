@@ -3,12 +3,11 @@ function fizzBuzz(userInput){
   for (var i = 0; i <= userInput; i++) {
     var num = i;
     newNum=num.toString();
-    //console.log(newNum[1]);
-    if(newNum[0] === "3" || newNum[1] === "3" || newNum[2] === "3"|| newNum[3] === "3" || newNum[4] === "3" || newNum[5] === "3"){
-      userNumber += ("I'm sorry, Dave. I'm afraid I can't do that.,  ");
-    }else if(newNum[0] === "2" || newNum[1] === "2" || newNum[2] === "2"|| newNum[3] === "2" || newNum[4] === "2" || newNum[5] === "2"){
+    if(newNum.includes("3")){
+      userNumber += ("  I am sorry, Dave. I'm afraid I can't do that,  ");
+    }else if(newNum.includes("2")){
       userNumber += ("Boop!,  ");
-    }else if(newNum[0] === "1" || newNum[1] === "1" || newNum[2] === "1"|| newNum[3] === "1" || newNum[4] === "1" || newNum[5] === "1"){
+    }else if(newNum.includes("1")){
       userNumber += ("Beep!,  ");
     }else {
       userNumber += i + ", " ;
