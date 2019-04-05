@@ -13,18 +13,18 @@ This application asks user to put a number and returns a list of numbers from ze
 * Run the application
 
 
-## Specs
+## Specs:
 
-Spec: The program returns a range of numbers from 0 to the users inputted number
-Input: "4"
-Output: "0, 1, 2, 3, 4"
-Then changes 1 to "Beep!", 2 to "Boop!"  and 3 to "I'm sorry, Dave. I'm afraid I can't do that." and shows on the screen;
+* The program returns a range of numbers from 0 to the users inputted number
+* Input: "4"
+* Output: "0, 1, 2, 3, 4"
+* Then changes 1 to "Beep!", 2 to "Boop!"  and 3 to "I'm sorry, Dave. I'm afraid I can't do that." and shows on the screen;
 
-input: "14"
-Output: "0, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do  that., Beep!"
+* input: "14"
+* Output: "0, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do  that., Beep!"
 
-input: "1"
-Output: "0, Beep!"
+* input: "1"
+* Output: "0, Beep!"
 
 ## Support and contact details
 
