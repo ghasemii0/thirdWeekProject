@@ -1,65 +1,65 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // function fizzBuzz(userInput){
 //   var userNumber = "";
+//   var num = "";
+//
 //   for (var i = 0; i <= userInput; i++) {
-//     var num = i;
-//     newNum=num.toString();
-//     //console.log(newNum[1]);
-//     if(newNum[0] === "3" || newNum[1] === "3" || newNum[2] === "3"){
-//       userNumber += ("I'm sorry, Dave. I'm afraid I can't do that.<br>");
-//     }else if(newNum[0] === "2" || newNum[1] === "2" || newNum[2] === "2"){
-//       userNumber += ("Boop<br>");
-//     }else if(newNum[0] === "1" || newNum[1] === "1" || newNum[2] === "1"){
-//       userNumber += ("Beep<br>");
-//     }else {
-//       userNumber += i + "<br>";
-//     }
+//      num += i;
+//     // }else if(newNum[0] === "2" || newNum[1] === "2" || newNum[2] === "2"){
+//     //   userNumber += ("Boop<br>");
+//     // }else if(newNum[0] === "1" || newNum[1] === "1" || newNum[2] === "1"){
+//     //   userNumber += ("Beep<br>");
+//     // }else {
+//     //   userNumber += i + "<br>";
+//     // }
 //   }
+//   var newNum=num.split("");
+//   console.log(newNum);
+//   newNum.forEach(function(n) {
+//     if([3].includes(newNum)){
+//       userNumber += ("I'm sorry, Dave. I'm afraid I can't do that.<br>");
+// }
 //   return userNumber;
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
+// }
 
 
 function fizzBuzz(userInput){
   var userNumber = "";
-  var num = "";
-
   for (var i = 0; i <= userInput; i++) {
-     num += i;
-    // }else if(newNum[0] === "2" || newNum[1] === "2" || newNum[2] === "2"){
-    //   userNumber += ("Boop<br>");
-    // }else if(newNum[0] === "1" || newNum[1] === "1" || newNum[2] === "1"){
-    //   userNumber += ("Beep<br>");
-    // }else {
-    //   userNumber += i + "<br>";
-    // }
-  }
-  var newNum=num.split("");
-  console.log(newNum);
-  newNum.forEach(function(n) {
-    if([3].includes(newNum)){
+    var num = i;
+    newNum=num.toString();
+    //console.log(newNum[1]);
+    if(newNum[0] === "3" || newNum[1] === "3" || newNum[2] === "3"|| newNum[3] === "3" || newNum[4] === "3" || newNum[5] === "3"){
       userNumber += ("I'm sorry, Dave. I'm afraid I can't do that.<br>");
-}
+    }else if(newNum[0] === "2" || newNum[1] === "2" || newNum[2] === "2"|| newNum[3] === "2" || newNum[4] === "2" || newNum[5] === "2"){
+      userNumber += ("Boop<br>");
+    }else if(newNum[0] === "1" || newNum[1] === "1" || newNum[2] === "1"|| newNum[3] === "1" || newNum[4] === "1" || newNum[5] === "1"){
+      userNumber += ("Beep<br>");
+    }else {
+      userNumber += i + "<br>";
+    }
+  }
   return userNumber;
 }
-
-}
-
-
-
 
 
 
@@ -72,6 +72,6 @@ $(document).ready(function(){
     var finalResult = fizzBuzz(userInput);
     $("#result").show();
 
-    $("#result").append(finalResult);
+    $("#result").text(finalResult+"<br>");
   });
 });
