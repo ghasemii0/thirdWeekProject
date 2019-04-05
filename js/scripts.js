@@ -1,14 +1,17 @@
 function fizzBuzz(userInput){
-  var num = "";
+  var outPut = "";
   for (var i = 0; i <= userInput; i++) {
-    num += (i);
-    var eachNum = num.split("");
-    console.log(eachNum);
-    if(eachNum[0]==="3" || eachNum[1] === "3"){
-    num += ("I'm sorry, Dave. I'm afraid I can't do that.");
-    }
+    var num = i;
+    var newNum = num.toString();
+    //console.log(typeof newNum);
+    var newNum1 = num.split(" ");
+    console.log(newNum1);
+
+    // if(eachNum[0]==="3" || eachNum[1] === "3"){
+    //   outPut += ("I'm sorry, Dave. I'm afraid I can't do that.");
+    // }
   }
-  return num;
+  return outPut;
 }
 
 
