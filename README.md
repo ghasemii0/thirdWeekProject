@@ -1,15 +1,39 @@
-Tracker suggestion for Epicodus future students
-By {Mustafa Ghasemi}
-Description
-Based on the answers that user insert, they will see which programing language fits for them to study.
+# Beep Boop
 
-Setup/Installation Requirements
-Clone the repository https://github.com/ghasemii0/trackSuggester1
-Click on index.html
-Known Bugs
-There are only four track suggestions for the user .Only these four groups has result in if statements: if(age, companySize, whichEnd, fullTimeOrPartTime, serverSideOrApplications) if(companySize, whichEnd, serverSideOrApplications) if(age, companySize, serverSideOrApplications) if(companySize, whichEnd, fullTimeOrPartTime)
+#### By Mustafa Ghasemi
 
-Technologies Used
--html -css -JavaScripts -jquery
+## Description
 
-Copyright (c) 2019 Mustafa Ghasemi
+This application asks user to put a number and returns a list of numbers from zero up to the number given. Then prints the numbers on the screen and for numbers contain 1 returns "Beep!", numbers contain 2 returns "Boop!" and for the numbers containing 3 returns I'm sorry, Dave. I'm afraid I can't do that."
+
+## Setup/Installation Requirements
+
+* Clone from GitHub
+* Open index.html in chrome
+* Run the application
+
+
+## Specs
+
+Spec: The program returns a range of numbers from 0 to the users inputted number
+Input: "4"
+Output: "0, 1, 2, 3, 4"
+Then changes 1 to "Beep!", 2 to "Boop!"  and 3 to "I'm sorry, Dave. I'm afraid I can't do that." and shows on the screen;
+
+input: "14"
+Output: "0, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do  that., Beep!"
+
+input: "1"
+Output: "0, Beep!"
+
+## Support and contact details
+
+If you have any questions or contributions, reach out to Mustafa Ghasemi.
+
+## Technologies Used
+
+HTML, CSS, Bootstrap, JavaScript, jQuery
+
+### License
+
+Copyright (c) 2019 Mustafa Ghasemi,
