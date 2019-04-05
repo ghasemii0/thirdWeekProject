@@ -1,47 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function fizzBuzz(userInput){
-//   var userNumber = "";
-//   var num = "";
-//
-//   for (var i = 0; i <= userInput; i++) {
-//      num += i;
-//     // }else if(newNum[0] === "2" || newNum[1] === "2" || newNum[2] === "2"){
-//     //   userNumber += ("Boop<br>");
-//     // }else if(newNum[0] === "1" || newNum[1] === "1" || newNum[2] === "1"){
-//     //   userNumber += ("Beep<br>");
-//     // }else {
-//     //   userNumber += i + "<br>";
-//     // }
-//   }
-//   var newNum=num.split("");
-//   console.log(newNum);
-//   newNum.forEach(function(n) {
-//     if([3].includes(newNum)){
-//       userNumber += ("I'm sorry, Dave. I'm afraid I can't do that.<br>");
-// }
-//   return userNumber;
-// }
-//
-// }
-
-
 function fizzBuzz(userInput){
   var userNumber = "";
   for (var i = 0; i <= userInput; i++) {
@@ -62,9 +18,6 @@ function fizzBuzz(userInput){
 }
 
 
-
-
-
 $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
@@ -72,6 +25,6 @@ $(document).ready(function(){
     var finalResult = fizzBuzz(userInput);
     $("#result").show();
 
-    $("#result").text(finalResult);
+    $("#finalOutPut").text(finalResult);
   });
 });
