@@ -49,13 +49,13 @@ function fizzBuzz(userInput){
     newNum=num.toString();
     //console.log(newNum[1]);
     if(newNum[0] === "3" || newNum[1] === "3" || newNum[2] === "3"|| newNum[3] === "3" || newNum[4] === "3" || newNum[5] === "3"){
-      userNumber += ("I'm sorry, Dave. I'm afraid I can't do that.<br>");
+      userNumber += ("I'm sorry, Dave. I'm afraid I can't do that.");
     }else if(newNum[0] === "2" || newNum[1] === "2" || newNum[2] === "2"|| newNum[3] === "2" || newNum[4] === "2" || newNum[5] === "2"){
-      userNumber += ("Boop<br>");
+      userNumber += ("Boop!");
     }else if(newNum[0] === "1" || newNum[1] === "1" || newNum[2] === "1"|| newNum[3] === "1" || newNum[4] === "1" || newNum[5] === "1"){
-      userNumber += ("Beep<br>");
+      userNumber += ("Beep");
     }else {
-      userNumber += i + "<br>";
+      userNumber += i ;
     }
   }
   return userNumber;
@@ -72,6 +72,6 @@ $(document).ready(function(){
     var finalResult = fizzBuzz(userInput);
     $("#result").show();
 
-    $("#result").text(finalResult+"<br>");
+    $("#result").text(finalResult);
   });
 });
