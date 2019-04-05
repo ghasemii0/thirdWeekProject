@@ -1,12 +1,15 @@
 #result {
   display: none;
 }
-h5 {
-  font-style: italic;
+
+h1{
+  text-align: center;
 }
+
 body {
   background-color: grey;
 }
+
 @media screen and (max-width: 768px) and (min-width: 600px) {
   body {
     background-color: black;
