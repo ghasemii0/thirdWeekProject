@@ -28,12 +28,14 @@ function fizzBuzz(userInput){
     newNum=num.toString();
     for (var j = 0; j < newNum.length; j++) {
     if(newNum[j] === "3"){
-      console.log("hi");
       userNumber += ("I'm sorry, Dave. I'm afraid I can't do that.");
+
     }else if(newNum[j] === "2"){
       userNumber += ("Boop");
+
     }else if(newNum[j] === "1"){
       userNumber += ("Beep");
+
     }else {
       userNumber += i ;
       }
